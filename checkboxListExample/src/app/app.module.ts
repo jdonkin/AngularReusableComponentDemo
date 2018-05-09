@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CheckboxComponent
   ],
   imports: [
     BrowserModule
